@@ -1,0 +1,5 @@
+# Original upstream bytes are verified against pinned Git blob hashes.
+third-party/** -text
+public/vendor/** -text
+*.png binary
+*.jpg binary
