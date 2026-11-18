@@ -1,0 +1,31 @@
+services:
+  office:
+    build: .
+    env_file: .env
+    environment:
+      OFFICE_HOST: 0.0.0.0
+      OFFICE_DATA: /app/data
+      OFFICE_OLLAMA_URL: http://ollama:11434
+      OFFICE_LM_STUDIO_URL: http://host.docker.internal:1234/v1
+    ports:
+      - "127.0.0.1:8787:8787"
+    volumes:
+      - office-data:/app/data
+      - ./upstream/projects:/app/upstream/projects:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+  ollama:
+    image: ollama/ollama:0.40.16
+    environment:
+      OLLAMA_NO_CLOUD: "1"
+    volumes:
+      - ollama-data:/root/.ollama
+    restart: unless-stopped
+volumes:
+  office-data:
+  ollama-data:

@@ -1,0 +1,263 @@
+[
+  {
+    "id": "edict",
+    "name": "Edict",
+    "repo": "cft0808/edict",
+    "commit": "14a207557719c046af0f993a7bff1cc5a5015b33",
+    "license": "MIT",
+    "licenseFile": "LICENSE",
+    "group": "office",
+    "description": "Bo‘limlar orasida topshiriq uzatish va ijro holatini kuzatish"
+  },
+  {
+    "id": "pixel-agents",
+    "name": "Pixel Agents",
+    "repo": "pixel-agents-hq/pixel-agents",
+    "commit": "4dd14d612fd37d89ffbbc977959f572395c4eec8",
+    "license": "MIT",
+    "licenseFile": "LICENSE",
+    "group": "office",
+    "description": "Agentlarni pikselli ofisda jonli ko‘rsatish"
+  },
+  {
+    "id": "pixel-office",
+    "name": "Pixel Office",
+    "repo": "fedevgonzalez/pixel-office",
+    "commit": "464cb4c7b312aa0e079f738317ff4cdb04d6231e",
+    "license": "MIT (kod); grafika shartlari alohida",
+    "licenseFile": "LICENSE",
+    "group": "office",
+    "description": "Claude Code sessiyalarini ofisda kuzatish"
+  },
+  {
+    "id": "companyos",
+    "name": "Kortix CompanyOS",
+    "repo": "kortix-ai/CompanyOS",
+    "commit": "3fe7c67ffbad34d97f45ed64a91f28f39a879e68",
+    "license": "Elastic-2.0; white-label shartlari alohida",
+    "licenseFile": "LICENSE",
+    "group": "office",
+    "description": "Jamoa, ilovalar va AI agentlar uchun kompaniya muhiti"
+  },
+  {
+    "id": "chatdev",
+    "name": "ChatDev",
+    "repo": "OpenBMB/ChatDev",
+    "commit": "464a681ba7bda869db97a50c5fa707c9a0fb57a0",
+    "license": "Apache-2.0",
+    "licenseFile": "LICENSE",
+    "group": "office",
+    "description": "Rollar asosidagi ish jarayonini diagrammada tuzish"
+  },
+  {
+    "id": "kandev",
+    "name": "Kandev",
+    "repo": "kdlbs/kandev",
+    "commit": "77804c2b27c28378d959be59bb3f7bed7c082636",
+    "license": "AGPL-3.0",
+    "licenseFile": "LICENSE",
+    "group": "office",
+    "description": "Kanban, Git worktree va kod farqlarini ko‘rish"
+  },
+  {
+    "id": "sim",
+    "name": "Sim",
+    "repo": "simstudioai/sim",
+    "commit": "27bb781a61a8d219cfb6ec6877bf691c930fe3c3",
+    "license": "Apache-2.0",
+    "licenseFile": "LICENSE",
+    "group": "flow",
+    "description": "Saqlangan vizual ish jarayonini bajarish"
+  },
+  {
+    "id": "langflow",
+    "name": "Langflow",
+    "repo": "langflow-ai/langflow",
+    "commit": "21381e5b2964fb4c714dc91fcd5187d4cfc2a67f",
+    "license": "MIT",
+    "licenseFile": "LICENSE",
+    "group": "flow",
+    "description": "Flow’ga matn yuborish va javobini olish"
+  },
+  {
+    "id": "autogen",
+    "name": "AutoGen",
+    "repo": "microsoft/autogen",
+    "commit": "8390985108cb1e3881f5f7297765758d8ad2540c",
+    "license": "MIT (kod); CC-BY-4.0 (hujjatlar)",
+    "licenseFile": "LICENSE",
+    "group": "flow",
+    "description": "AgentChat jamoalari va Studio tajribalari"
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "repo": "crewAIInc/crewAI",
+    "commit": "2688bb6b8c329a4af72ef822c8056f2eaa83c995",
+    "license": "MIT",
+    "licenseFile": "LICENSE",
+    "group": "flow",
+    "description": "Rollarga vazifa biriktirish va jamoani boshqarish"
+  },
+  {
+    "id": "metagpt",
+    "name": "MetaGPT",
+    "repo": "FoundationAgents/MetaGPT",
+    "commit": "11cdf466d042aece04fc6cfd13b28e1a70341b1f",
+    "license": "MIT",
+    "licenseFile": "LICENSE",
+    "group": "flow",
+    "description": "Mahsulot talabi asosida mutaxassis rollarini muvofiqlashtirish"
+  },
+  {
+    "id": "ag2",
+    "name": "AG2",
+    "repo": "ag2ai/ag2",
+    "commit": "920e6ead5f430318a3c9c746059a08085a27be1a",
+    "license": "Apache-2.0",
+    "licenseFile": "LICENSE",
+    "group": "flow",
+    "description": "Agentlararo xabar va vazifa yo‘nalishlari"
+  },
+  {
+    "id": "swarms",
+    "name": "Swarms",
+    "repo": "kyegomez/swarms",
+    "commit": "90d4807640f5d82803abad33b287c11cd908ac43",
+    "license": "Apache-2.0",
+    "licenseFile": "LICENSE",
+    "group": "flow",
+    "description": "Ko‘p agentli ish ketma-ketliklari"
+  },
+  {
+    "id": "google-adk",
+    "name": "Google ADK",
+    "repo": "google/adk-python",
+    "commit": "de1d3079e8968e5e970ec146e5963ecbe68a5b7a",
+    "license": "Apache-2.0",
+    "licenseFile": "LICENSE",
+    "group": "flow",
+    "description": "Python agentlari, sessiyalar va baholash"
+  },
+  {
+    "id": "mastra",
+    "name": "Mastra",
+    "repo": "mastra-ai/mastra",
+    "commit": "2e7416cc6554f399d28ccdc58e39ab2e7af78b4e",
+    "license": "Apache-2.0; ee/ alohida",
+    "licenseFile": "LICENSE.md",
+    "group": "flow",
+    "description": "TypeScript agentlari va ish jarayonlari"
+  },
+  {
+    "id": "litellm",
+    "name": "LiteLLM",
+    "repo": "BerriAI/litellm",
+    "commit": "b38c7fb61d78b3d1da15ad2c3ccd142b5b22d4aa",
+    "license": "MIT; enterprise/ alohida",
+    "licenseFile": "LICENSE",
+    "group": "model",
+    "description": "Bir nechta provayder uchun umumiy model API"
+  },
+  {
+    "id": "portkey",
+    "name": "Portkey Gateway",
+    "repo": "Portkey-AI/gateway",
+    "commit": "669825cbe89ee51569918b8f78a9db486fd69dd4",
+    "license": "MIT",
+    "licenseFile": "LICENSE",
+    "group": "model",
+    "description": "Model gateway orqali so‘rov yo‘naltirish"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "repo": "ollama/ollama",
+    "commit": "b8db8d5b5c8daedbbef7bb9ace2221a38bc384c2",
+    "license": "MIT",
+    "licenseFile": "LICENSE",
+    "group": "model",
+    "description": "Kompyuterdagi modellarni topish va ishlatish"
+  },
+  {
+    "id": "localai",
+    "name": "LocalAI",
+    "repo": "mudler/LocalAI",
+    "commit": "bb421089ecc58c1be557440effb22f720db351f0",
+    "license": "MIT",
+    "licenseFile": "LICENSE",
+    "group": "model",
+    "description": "O‘z serveringizda OpenAI-compatible model API"
+  },
+  {
+    "id": "librechat",
+    "name": "LibreChat",
+    "repo": "LibreChat-AI/LibreChat",
+    "commit": "d4e85d2205c78413ee27d631d7e3b7313556f21d",
+    "license": "MIT",
+    "licenseFile": "LICENSE",
+    "group": "model",
+    "description": "Jamoa uchun chat va agent interfeysi"
+  },
+  {
+    "id": "muratify",
+    "name": "Muratify AgentSpace",
+    "repo": "Muratify/agentspace",
+    "commit": "e0067fafc5864b9c747fb2fbf0f3706d74024abb",
+    "license": "Ommaviy hujjatlar va jamoa namunalari. Mahsulot kodi yopiq.",
+    "licenseFile": "README.md",
+    "group": "office",
+    "description": "Jamoani tashkil qilish, rollar, egasi tasdiqlaydigan xotira va topshiriq natijasini qayd etish uchun namuna.",
+    "reference": true
+  },
+  {
+    "id": "my-virtual-office",
+    "name": "My Virtual Office",
+    "repo": "eliautobot/my-virtual-office",
+    "commit": "6721f84375350c06b281c63fe0e13638ac71f274",
+    "license": "AGPL-3.0",
+    "description": "Ofis muharriri, agent harakati, OpenClaw va Hermes ulanishlari",
+    "licenseFile": "LICENSE",
+    "group": "office"
+  },
+  {
+    "id": "openclaw-pixel-agents",
+    "name": "OpenClaw Pixel Agents",
+    "repo": "SweetSophia/openclaw-pixel-agents",
+    "commit": "c8ad068639626ac59dd8280c2acae011ec6e450a",
+    "license": "MIT",
+    "description": "OpenClaw holatlari va pikselli ofis",
+    "licenseFile": "LICENSE",
+    "group": "office"
+  },
+  {
+    "id": "agent-office",
+    "name": "Agent Office 3D",
+    "repo": "Munizada/agent-office",
+    "commit": "228080bc0a8786b19e3eceebf416e2ceb02b3a16",
+    "license": "MIT",
+    "description": "VS Code va lokal agentlar uchun 3D ofis",
+    "licenseFile": "LICENSE",
+    "group": "office"
+  },
+  {
+    "id": "claw3d",
+    "name": "Claw3D",
+    "repo": "iamlukethedev/claw3d",
+    "commit": "51337f7f250459af61a7cf92b7b0015d59faed5c",
+    "license": "MIT",
+    "description": "3D agent ofisi, jamoa holati va runtime ulanishlari",
+    "licenseFile": "LICENSE",
+    "group": "office"
+  },
+  {
+    "id": "pixel-claw",
+    "name": "Pixel Claw",
+    "repo": "monkeystar0/pixel-claw",
+    "commit": "a9185169ccdd72794ee52832849881e4ec3cda37",
+    "license": "MIT",
+    "description": "Pikselli ofis xaritasi, agent suhbati va sessiyalar",
+    "licenseFile": "LICENSE",
+    "group": "office"
+  }
+]

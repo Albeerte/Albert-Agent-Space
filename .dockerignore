@@ -1,0 +1,7 @@
+data
+.env
+test
+*.zip
+.git
+upstream
+artifacts

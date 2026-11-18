@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="uz" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Albert Agent Space</title>
+  <link rel="stylesheet" href="/original.css">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#office"><span class="logo-icon" aria-hidden="true">A</span><span>Albert Agent Space</span></a>
+    <div class="tb-stats" id="stats"></div>
+    <button class="btn-theme" id="theme" type="button" aria-label="Rang mavzusini almashtirish">◐</button>
+    <button class="btn-theme" id="logout" type="button" hidden>Chiqish</button>
+  </header>
+  <div id="connection" class="connection" role="status" hidden></div>
+  <section class="session" id="session" hidden></section>
+  <div class="workspace" id="shell" hidden>
+    <aside class="sidebar">
+      <nav id="navigation" aria-label="Ish sahifalari"></nav>
+      <div id="providers"></div>
+    </aside>
+    <main class="office" id="main"></main>
+    <aside class="tasks-panel">
+      <div class="stream-title"><span class="tb-dot"></span><h2>Vazifalar lentasi</h2></div>
+      <div class="tstream" id="events"></div>
+    </aside>
+  </div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

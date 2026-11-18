@@ -1,0 +1,38 @@
+{
+  "team": "Research",
+  "description": "Takes an open question, investigates it in parallel, reports with sources.",
+  "roles": [
+    {
+      "name": "Research Lead",
+      "slug": "research-lead",
+      "owns": "Framing the question, splitting it into angles, synthesising the answer",
+      "engine": "any",
+      "definitionOfDone": [
+        "The question is written down before the work starts, in one sentence",
+        "Each angle assigned to exactly one explorer",
+        "Final answer states confidence and what would change it"
+      ]
+    },
+    {
+      "name": "Explorer",
+      "slug": "explorer",
+      "owns": "One angle of the question — searching, reading, extracting",
+      "engine": "any",
+      "definitionOfDone": [
+        "Findings listed with the source URL or file path for each",
+        "Contradictions between sources reported, not averaged away",
+        "\"Not found\" is a valid finding and is reported as such"
+      ]
+    },
+    {
+      "name": "Skeptic",
+      "slug": "skeptic",
+      "owns": "Trying to break the conclusion before it ships",
+      "engine": "any",
+      "definitionOfDone": [
+        "Every load-bearing claim checked against its source directly",
+        "At least one alternative explanation considered in writing"
+      ]
+    }
+  ]
+}

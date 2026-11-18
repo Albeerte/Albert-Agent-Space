@@ -1,0 +1,48 @@
+{
+  "team": "Content",
+  "description": "Plans, writes, edits and publishes content on a schedule.",
+  "roles": [
+    {
+      "name": "Editor",
+      "slug": "editor",
+      "owns": "The calendar, the brief for each piece, the final yes/no",
+      "engine": "any",
+      "definitionOfDone": [
+        "Each piece has an audience, a promise and a single call to action",
+        "Nothing is published without a named source for every factual claim"
+      ]
+    },
+    {
+      "name": "Writer",
+      "slug": "writer",
+      "owns": "Drafting to the brief",
+      "engine": "any",
+      "definitionOfDone": [
+        "Draft answers the brief's promise in its first two sentences",
+        "Every number, quote and date carries a link to where it came from",
+        "No invented statistics — an unavailable number is written as unavailable"
+      ]
+    },
+    {
+      "name": "Fact Checker",
+      "slug": "fact-check",
+      "owns": "Verifying claims before publication",
+      "engine": "any",
+      "definitionOfDone": [
+        "Each claim marked verified / unverifiable, with the source used",
+        "Unverifiable claims removed or rewritten as opinion, not deleted silently"
+      ]
+    },
+    {
+      "name": "Publisher",
+      "slug": "publisher",
+      "owns": "Formatting, assets, scheduling, post-publish checks",
+      "engine": "any",
+      "definitionOfDone": [
+        "Live URL opens and renders on mobile width",
+        "All links return a success status — checked, not assumed",
+        "Images have alt text"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "team": "Product",
+  "description": "Builds and ships a software product end to end.",
+  "roles": [
+    {
+      "name": "Lead",
+      "slug": "lead",
+      "owns": "Splitting goals into sub-tasks, assigning them, reviewing the result",
+      "engine": "any",
+      "definitionOfDone": [
+        "Every sub-task has an owner and a written acceptance check",
+        "No two open sub-tasks touch the same files",
+        "Result reviewed against the original goal, not against the sub-task"
+      ]
+    },
+    {
+      "name": "Backend Engineer",
+      "slug": "backend",
+      "owns": "APIs, data model, migrations, background jobs",
+      "engine": "any",
+      "definitionOfDone": [
+        "Type check and tests pass — real command output pasted into the report",
+        "Migration applied and reverted once on a scratch database",
+        "No secret, key or connection string added to the repo"
+      ]
+    },
+    {
+      "name": "Frontend Engineer",
+      "slug": "frontend",
+      "owns": "UI, client state, accessibility, responsive layout",
+      "engine": "any",
+      "definitionOfDone": [
+        "Change verified by real interaction, not only by unit test",
+        "Screenshot of the actual screen attached (desktop + mobile width)",
+        "Build passes"
+      ]
+    },
+    {
+      "name": "QA Engineer",
+      "slug": "qa",
+      "owns": "Test plans, regression checks, reproducing reported bugs",
+      "engine": "any",
+      "definitionOfDone": [
+        "Bug reproduced before it is called fixed",
+        "Failing check shown red first, then green after the fix",
+        "Tests are not loosened to make them pass"
+      ]
+    },
+    {
+      "name": "Designer",
+      "slug": "design",
+      "owns": "Layout, hierarchy, copy tone, design consistency",
+      "engine": "any",
+      "definitionOfDone": [
+        "Before/after frames of the changed surface",
+        "Contrast and hit-target sizes checked on the smallest supported width"
+      ]
+    }
+  ]
+}

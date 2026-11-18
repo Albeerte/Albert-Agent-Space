@@ -1,0 +1,127 @@
+{
+  "edict": {
+    "path": "scripts/refresh_live_data.py",
+    "blob": "2d96771935913f09fefe34346e9c244c2b80de04",
+    "bytes": 5073
+  },
+  "pixel-agents": {
+    "path": "webview-ui/src/office/engine/gameLoop.ts",
+    "blob": "998ad08b7ed2ed55e8788cd52aa179333d45601c",
+    "bytes": 1253
+  },
+  "pixel-office": {
+    "path": "webview-ui/src/office/engine/officeState.ts",
+    "blob": "92878a6dd84fce7b4b06e27d8fdc2f0a30b6cb12",
+    "bytes": 49481
+  },
+  "companyos": {
+    "path": "packages/ui/src/customize/agents/agent-status.ts",
+    "blob": "c23706d6934941d6da874a72ed94b42c5170c898",
+    "bytes": 384
+  },
+  "chatdev": {
+    "path": "server/routes/execute_sync.py",
+    "blob": "44b62ae56a5ab6f605b19c8d4a6bfe0ab5de90a8",
+    "bytes": 10221
+  },
+  "kandev": {
+    "path": "apps/backend/internal/task/handlers/workspace_handlers.go",
+    "blob": "2ec175b90ee457160ac84842841f99094482e6c1",
+    "bytes": 14373
+  },
+  "sim": {
+    "path": "apps/sim/app/api/workflows/[id]/execute/route.ts",
+    "blob": "195fc27607d0588231b7b871cef0769cd14eb0e7",
+    "bytes": 95106
+  },
+  "langflow": {
+    "path": "src/lfx/src/lfx/components/input_output/chat_output.py",
+    "blob": "3b90dd03e96d1e31b1d2bf9c919c2283e68fae58",
+    "bytes": 8078
+  },
+  "autogen": {
+    "path": "python/packages/autogen-agentchat/src/autogen_agentchat/teams/_group_chat/_round_robin_group_chat.py",
+    "blob": "3f529f0c4474811b413a7a11898c50de666dee73",
+    "bytes": 14424
+  },
+  "crewai": {
+    "path": "lib/crewai/src/crewai/tasks/task_output.py",
+    "blob": "2c69666848d2ec94b4e5a93d9a372d7a40697e9c",
+    "bytes": 4209
+  },
+  "metagpt": {
+    "path": "metagpt/roles/architect.py",
+    "blob": "7ec937675a16e8f86c86aa616ee651e77525d3f9",
+    "bytes": 2020
+  },
+  "ag2": {
+    "path": "ag2/config/openai/config.py",
+    "blob": "a0b6bbee497e4818f15a24046c04fed8fae2baf5",
+    "bytes": 16528
+  },
+  "swarms": {
+    "path": "swarms/structs/sequential_workflow.py",
+    "blob": "759b33a487783baee798fc648c5e1027b30d7d82",
+    "bytes": 22130
+  },
+  "google-adk": {
+    "path": "src/google/adk/agents/sequential_agent.py",
+    "blob": "2ec8cf51e6c8d63a49024b65df7b78beda5e39c8",
+    "bytes": 7414
+  },
+  "mastra": {
+    "path": "packages/core/src/agent/durable/run-message-refs.ts",
+    "blob": "7be212532822e62ffe76a9d4f8a8bf1dba9c1ac6",
+    "bytes": 2136
+  },
+  "litellm": {
+    "path": "litellm/router_strategy/least_busy.py",
+    "blob": "9d3767268ca1ec60dbc743ce816d3282356229d0",
+    "bytes": 21878
+  },
+  "portkey": {
+    "path": "src/providers/openai/chatComplete.ts",
+    "blob": "1186061af077bef37c490d0c1c84efd87f9eeec0",
+    "bytes": 11022
+  },
+  "ollama": {
+    "path": "api/client.go",
+    "blob": "2eb66cb9b4207a04dd417f27c7a1dce136af048e",
+    "bytes": 16709
+  },
+  "localai": {
+    "path": "core/http/endpoints/openai/chat.go",
+    "blob": "13606f7731f1391b5bb4821063655fe59734b3bb",
+    "bytes": 50034
+  },
+  "librechat": {
+    "path": "api/server/services/Config/loadCustomConfig.js",
+    "blob": "555f3d08736417d9c60f8bd258494b4b915028df",
+    "bytes": 461
+  },
+  "my-virtual-office": {
+    "path": "app/office-life/sprites.js",
+    "bytes": 20399,
+    "blob": "c943c038d51f7b1c3933cc8311f5f6cb429c1feb"
+  },
+  "openclaw-pixel-agents": {
+    "path": "src/game/Pathfinder.ts",
+    "bytes": 6052,
+    "blob": "0c35db28d2b847b81485ccc588b95d108289a8a1"
+  },
+  "agent-office": {
+    "path": "src/scene/officeLayout.ts",
+    "bytes": 5085,
+    "blob": "c748df4d3dd6d6a356a0be2e7e5bc2fc218f1211"
+  },
+  "claw3d": {
+    "path": "src/lib/office/pathfinding.ts",
+    "bytes": 11799,
+    "blob": "e157c257bd75f9381ec8329e45d1f240df9ad700"
+  },
+  "pixel-claw": {
+    "path": "client/src/world/engine/characters.ts",
+    "bytes": 9703,
+    "blob": "0ddc1ee2b80988fb18ed413bf633f41d3addeae5"
+  }
+}

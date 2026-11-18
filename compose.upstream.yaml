@@ -1,0 +1,31 @@
+services:
+  paperclip:
+    profiles: ["paperclip"]
+    build:
+      context: https://github.com/paperclipai/paperclip.git#9911b7052f602ae4bc2296ca27b05651fe4b873b
+      target: production
+    ports:
+      - "127.0.0.1:3100:3100"
+    volumes:
+      - paperclip-data:/paperclip
+    environment:
+      PAPERCLIP_DEPLOYMENT_MODE: authenticated
+      PAPERCLIP_DEPLOYMENT_EXPOSURE: private
+    restart: unless-stopped
+  openclaw:
+    profiles: ["openclaw"]
+    build:
+      context: https://github.com/openclaw/openclaw.git#91070099ea62e36470fa359222e87019fd91003a
+    environment:
+      HOME: /home/node
+      OPENCLAW_GATEWAY_TOKEN: ${OPENCLAW_GATEWAY_TOKEN:?Run npm run setup first}
+    command: ["node", "dist/index.js", "gateway", "--allow-unconfigured", "--bind", "lan", "--port", "18789"]
+    ports:
+      - "127.0.0.1:18789:18789"
+    volumes:
+      - openclaw-data:/home/node/.openclaw
+    init: true
+    restart: unless-stopped
+volumes:
+  paperclip-data:
+  openclaw-data:

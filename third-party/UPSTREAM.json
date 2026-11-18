@@ -1,0 +1,44 @@
+{
+  "pixelAgents": {
+    "repository": "https://github.com/pixel-agents-hq/pixel-agents",
+    "commit": "4dd14d612fd37d89ffbbc977959f572395c4eec8",
+    "license": "MIT",
+    "source": "webview-ui/src/office/engine/gameLoop.ts",
+    "blob": "998ad08b7ed2ed55e8788cd52aa179333d45601c",
+    "licenseBlob": "0e0268df8b275fcb9a8eeb4c1e4f23cb460e7cd1",
+    "maxDeltaTime": 0.1
+  },
+  "paperclip": {
+    "repository": "https://github.com/paperclipai/paperclip",
+    "commit": "9911b7052f602ae4bc2296ca27b05651fe4b873b",
+    "license": "MIT",
+    "integration": "REST issue adapter; optional upstream source checkout"
+  },
+  "openclaw": {
+    "repository": "https://github.com/openclaw/openclaw",
+    "commit": "91070099ea62e36470fa359222e87019fd91003a",
+    "license": "MIT",
+    "integration": "OpenAI-compatible Gateway HTTP adapter; optional upstream source checkout"
+  },
+  "kandev": {
+    "repository": "https://github.com/kdlbs/kandev",
+    "reviewedVersion": "v0.101.0",
+    "license": "AGPL-3.0",
+    "licenseBlob": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+    "integration": "Reference only: Kanban/worktree/review pattern; no Kandev code copied or bundled"
+  },
+  "litellm": {
+    "repository": "https://github.com/BerriAI/litellm",
+    "reviewedVersion": "v1.109.1",
+    "license": "MIT outside enterprise/; enterprise has a separate license",
+    "licenseBlob": "3bfef5bae9b48c334acf426d5b7f21bc1913aab9",
+    "integration": "OpenAI-compatible gateway adapter; no LiteLLM server bundled"
+  },
+  "ollama": {
+    "repository": "https://github.com/ollama/ollama",
+    "version": "v0.40.16",
+    "image": "ollama/ollama:0.40.16",
+    "license": "MIT",
+    "licenseBlob": "8e3dc978a7ca8c53f56bbedc5b558116140fc02e"
+  }
+}
